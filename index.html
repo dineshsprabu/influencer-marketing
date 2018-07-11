@@ -1,149 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Jura|Lato:400,700,900" rel="stylesheet">
-  <title>Inflark</title>
-  <style type="text/css">
-    body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: 'Lato', sans-serif;
-    }
-
-    .header {
-      margin: 100px;
-    }
-
-    .main {
-      height: 100%;
-      margin-top: 12%;
-    }
-
-    span {
-      display: inherit;
-      color: #0c2461;
-      font-weight: 800;
-      font-size: 35px;
-      margin: 5px;
-      text-align: center;
-    }
-
-    button {
-      border: 2px solid #444;
-      background: none;
-      border-radius: 10px;
-      font-size: 23px;
-      display: inline-flex;
-    }
-
-    span.in-progress {
-      font-weight: 400;
-      font-size: 25px;
-      margin: 20px;
-      letter-spacing: 0.1em;
-    }
-
-
-    span.sub-title {
-      padding-top: 4px;
-      font-size: 17px;
-      font-weight: 400;
-    }
-
-    button.link {
-      font-weight: inherit;
-      font-family: inherit;
-      font-size: inherit;
-      color: inherit;
-      border: 2px solid #1e3799;
-      padding: 5px 15px;
-      border-radius: 5px;
-    }
-
-    button:hover,
-    button:focus {
-      transform: scale(1.02);
-      cursor: pointer;
-    }
-
-    .second-block {
-      margin-top: 80px;
-    }
-
-    div.second-block span {
-      color: #1e3799;
-    }
-
-    span.logo {
-      font-family: 'Jura', sans-serif;
-      position: fixed;
-      top: 20px;
-      left: 35px;
-    }
-
-    button.contact {
-      font-weight: inherit;
-      font-family: inherit;
-      font-size: 20px;
-      color: #1e3799;
-      border: 2px solid #1e3799;
-      padding: 5px 15px;
-      border-radius: 5px;
-      position: fixed;
-      top: 30px;
-      right: 50px;
-    }
-
-    img.bottom-right {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      width: 20%;
-    }
-
-    img.bottom-left {
-      position: fixed;
-      bottom: 10px;
-      left: 15px;
-      width: 18%;
-    }
-
-    img.bottom-center1 {
-      position: fixed;
-      left: 30%;
-      bottom: 10px;
-      height: 30%;
-    }
-
-    img.bottom-center2 {
-      position: fixed;
-      left: 55%;
-      bottom: 10px;
-      height: 30%;
-    }
-
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Inflark</title>
+	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
-    <span class="logo">Inflark</span>
-    <button class="contact"> Contact us </button>
-  </div>
-  <div class="main">
-    <span> Influencer Marketing Platform &amp; Marketplace </span>
-    <span class="in-progress"> Work in Progress . .</span>
+	<header class="globalNav">
+		<div class="container-lg">
+			<nav>
+				<ul class="navRoot">
+					<li class="container-lg">
+						<a class="rootLink item-home colorize" href="/">
+							<h1>inflark</h1>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="globalContent">
+		<main>
+			<header>
+				<div id="stripes" aria-hidden="true">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 
-    <div class="second-block">
-      <span> <button class="link"> inflark.me </button> is up  🔥  🔥</span>
-      <span class="sub-title"> make your instagram bio shoppable </span>
-    </div>
-  </div>
-  <img src="./images/background1.png" class="bottom-right"></img>
-  <img src="./images/background2.png" class="bottom-left"></img>
-  <img src="./images/background3.png" class="bottom-center1" ></img>
-  <img src="./images/background4.png" class="bottom-center2" ></img>
+				<section id="intro">
+					<div class="container-lg">
+						<div class="page-left">
+							<h1>Make your instagram profile shoppable</h1>
+							<form name="contact">
+								<input name="email" type="email" placeholder="kendall@jenner.com" required>
+								<input name="ig" type="ig" placeholder="@kendalljenner" required>
+								<button class="common-Button submit-btn" type="submit">Get early access</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</header>
+
+			<section id="app-illustrations">
+				<div class="phone-small">
+					<img alt="wish" src="/ig.png">
+				</div>
+			</section>
+
+		</main>
+		<footer class="container-lg p1 black-70">
+			<a href="mailto:hello@inflark.com" class="link b f3 f2-ns dim black-70 lh-solid">hello@inflark.com</a>
+			<p class="f6 db b ttu lh-solid">© 2018 INFLARK Inc.</p>
+		</footer>
+		<div class="modal-mask">
+		<div class='flash success'>
+			<div class='bg'>
+				<div class='bg-icon'></div>
+				<div class='bg-btns'></div>
+			</div>
+			<div class='inside'>
+				<figure class='icon'>
+					<svg viewBox='0 0 84 84'>
+						<g fill='none'>
+							<circle cx='42' cy='42' fill='#BDE3CA' r='42'></circle>
+							<path d='M30,62 C33.0710678,65.0710678 37.3137085,66.9705627 42,66.9705627 C46.6862915,66.9705627 50.9289322,65.0710678 54,62'
+							stroke-width='5' stroke='#5FB67D'></path>
+							<circle cx='30' cy='42' fill='#5FB67D' r='3'></circle>
+							<circle cx='54' cy='42' fill='#5FB67D' r='3'></circle>
+						</g>
+					</svg>
+				</figure>
+				<div>
+					<h2>Success!</h2>
+					<p>You’re all set.</p>
+				</div>
+				<div class='btns'>
+					<button class="close-modal">
+						<svg viewBox='0 0 56 56'>
+							<polyline fill='none' points='16 29.4852814 24.4852814 37.9705627 41.4852814 21' stroke-width='4' stroke='#5FB67D'></polyline>
+						</svg>
+						<span>Done</span>
+					</button>
+					<!-- <button class="close-modal">
+						<svg viewBox='0 0 56 56'>
+							<g fill='none' stroke-width='4' stroke='#ADBBB2'>
+								<polyline points='31.5147186 19.5147186 40 28 31.5147186 36.4852814'></polyline>
+								<line x1='40' x2='16' y1='28' y2='28'></line>
+							</g>
+						</svg>
+						<span>Nope!</span>
+					</button> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script>
+		(function () {
+			const scriptURL = 'https://script.google.com/macros/s/AKfycbxluzPVN1phu0OB28gMUGS6B8WCeIyKX-v8jTIIs53gEl5O0Sk/exec';
+			const form = document.forms['contact'];
+			form.addEventListener('submit', e => {
+				e.preventDefault()
+				fetch(scriptURL, {
+						method: 'POST',
+						body: new FormData(form)
+					})
+					.then(response => {
+						if (response.status) {
+							sayThanks()
+						}
+					})
+					.catch(error => console.error('Error!', error.message));
+			})
+
+			function sayThanks() {
+				document.querySelector('.modal-mask').classList.add('show')
+			}
+			document.querySelector('.close-modal').addEventListener('click', function(){
+				document.querySelector('.modal-mask').classList.remove('show');
+			});
+		})();
+	</script>
 </body>
+
 </html>
